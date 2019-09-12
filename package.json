@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-worker-threads",
+  "version": "1.0.0",
+  "description": "Demo for NodeJS WorkerThreads",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --experimental-worker dist/index.js 5000000000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Worker"
+  ],
+  "author": "Philipp Kief",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  }
+}
